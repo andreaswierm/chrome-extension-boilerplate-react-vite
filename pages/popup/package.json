@@ -18,9 +18,11 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
+    "@dynamic-labs/ethereum": "^2.5.0",
+    "@dynamic-labs/sdk-react-core": "^2.5.0",
+    "@extension/content-runtime-script": "workspace:*",
     "@extension/shared": "workspace:*",
     "@extension/storage": "workspace:*",
-    "@extension/content-runtime-script": "workspace:*",
     "@types/node": "^20.14.10"
   },
   "devDependencies": {
