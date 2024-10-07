@@ -22,8 +22,8 @@ importers:
         specifier: ^20.14.10
         version: 20.14.10
       '@types/react':
-        specifier: ^18.3.3
-        version: 18.3.3
+        specifier: ^18.3.11
+        version: 18.3.11
       '@types/react-dom':
         specifier: ^18.3.0
         version: 18.3.0
@@ -392,10 +392,10 @@ importers:
     dependencies:
       '@dynamic-labs/ethereum':
         specifier: ^2.5.0
-        version: 2.5.0(@dynamic-labs/logger@2.5.0(eventemitter3@5.0.1))(@dynamic-labs/rpc-providers@2.5.0(viem@2.20.0(bufferutil@4.0.8)(typescript@5.5.4)(utf-8-validate@5.0.10)(zod@3.22.4)))(@types/react@18.3.3)(bufferutil@4.0.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(utf-8-validate@5.0.10)(viem@2.20.0(bufferutil@4.0.8)(typescript@5.5.4)(utf-8-validate@5.0.10)(zod@3.22.4))
+        version: 2.5.0(@dynamic-labs/logger@2.5.0(eventemitter3@5.0.1))(@dynamic-labs/rpc-providers@2.5.0(viem@2.20.0(bufferutil@4.0.8)(typescript@5.5.4)(utf-8-validate@5.0.10)(zod@3.22.4)))(@types/react@18.3.11)(bufferutil@4.0.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(utf-8-validate@5.0.10)(viem@2.20.0(bufferutil@4.0.8)(typescript@5.5.4)(utf-8-validate@5.0.10)(zod@3.22.4))
       '@dynamic-labs/sdk-react-core':
         specifier: ^2.5.0
-        version: 2.5.0(@types/react@18.3.3)(bufferutil@4.0.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(utf-8-validate@5.0.10)(viem@2.20.0(bufferutil@4.0.8)(typescript@5.5.4)(utf-8-validate@5.0.10)(zod@3.22.4))
+        version: 2.5.0(@types/react@18.3.11)(bufferutil@4.0.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(utf-8-validate@5.0.10)(viem@2.20.0(bufferutil@4.0.8)(typescript@5.5.4)(utf-8-validate@5.0.10)(zod@3.22.4))
       '@extension/content-runtime-script':
         specifier: workspace:*
         version: link:../content-runtime
@@ -1503,8 +1503,8 @@ packages:
   '@types/react-dom@18.3.0':
     resolution: {integrity: sha512-EhwApuTmMBmXuFOikhQLIBUn6uFg81SwLMOAUgodJF14SOBOCMdU04gDoYi0WOJJHD144TL32z4yDqCW3dnkQg==}
 
-  '@types/react@18.3.3':
-    resolution: {integrity: sha512-hti/R0pS0q1/xx+TsI73XIqk26eBsISZ2R0wUijXIngRK9R/e7Xw/cXVxQK7R5JjW+SV4zGcn5hXjudkN/pLIw==}
+  '@types/react@18.3.11':
+    resolution: {integrity: sha512-r6QZ069rFTjrEYgFdOck1gK7FLVsgJE7tTz0pQBczlBNUhBNk0MQH4UbnFSwjpQLMkLzgqvBBa+qGpLje16eTQ==}
 
   '@types/trusted-types@2.0.7':
     resolution: {integrity: sha512-ScaPdn1dQczgbl0QFTeTOmVHFULt394XJgOQNoyVhZ6r2vLnMLJfBPd53SB52T/3G36VI1/g2MZaX0cwDuXsfw==}
@@ -2379,6 +2379,7 @@ packages:
   eslint@8.57.0:
     resolution: {integrity: sha512-dZ6+mexnaTIbSBZWgou51U6OmzIhYM2VcNdtiTtI7qPNZm35Akpr0f6vtw3w1Kmn5PYo+tZVfh13WrhpS6oLqQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
 
   esm@3.2.25:
@@ -4326,7 +4327,7 @@ snapshots:
     dependencies:
       '@jridgewell/trace-mapping': 0.3.9
 
-  '@dynamic-labs/ethereum@2.5.0(@dynamic-labs/logger@2.5.0(eventemitter3@5.0.1))(@dynamic-labs/rpc-providers@2.5.0(viem@2.20.0(bufferutil@4.0.8)(typescript@5.5.4)(utf-8-validate@5.0.10)(zod@3.22.4)))(@types/react@18.3.3)(bufferutil@4.0.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(utf-8-validate@5.0.10)(viem@2.20.0(bufferutil@4.0.8)(typescript@5.5.4)(utf-8-validate@5.0.10)(zod@3.22.4))':
+  '@dynamic-labs/ethereum@2.5.0(@dynamic-labs/logger@2.5.0(eventemitter3@5.0.1))(@dynamic-labs/rpc-providers@2.5.0(viem@2.20.0(bufferutil@4.0.8)(typescript@5.5.4)(utf-8-validate@5.0.10)(zod@3.22.4)))(@types/react@18.3.11)(bufferutil@4.0.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(utf-8-validate@5.0.10)(viem@2.20.0(bufferutil@4.0.8)(typescript@5.5.4)(utf-8-validate@5.0.10)(zod@3.22.4))':
     dependencies:
       '@coinbase/wallet-sdk': 4.0.4
       '@dynamic-labs/rpc-provider-ethereum': 2.5.0(eventemitter3@5.0.1)(viem@2.20.0(bufferutil@4.0.8)(typescript@5.5.4)(utf-8-validate@5.0.10)(zod@3.22.4))
@@ -4337,7 +4338,7 @@ snapshots:
       '@dynamic-labs/viem-utils': 2.5.0(e75gsvu6jdgij7i5ntbudbjbuy)
       '@dynamic-labs/wallet-book': 2.5.0(eventemitter3@5.0.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(viem@2.20.0(bufferutil@4.0.8)(typescript@5.5.4)(utf-8-validate@5.0.10)(zod@3.22.4))
       '@dynamic-labs/wallet-connector-core': 2.5.0(@dynamic-labs/logger@2.5.0(eventemitter3@5.0.1))(@dynamic-labs/rpc-providers@2.5.0(viem@2.20.0(bufferutil@4.0.8)(typescript@5.5.4)(utf-8-validate@5.0.10)(zod@3.22.4)))(@dynamic-labs/types@2.5.0(viem@2.20.0(bufferutil@4.0.8)(typescript@5.5.4)(utf-8-validate@5.0.10)(zod@3.22.4)))(@dynamic-labs/utils@2.5.0(eventemitter3@5.0.1)(viem@2.20.0(bufferutil@4.0.8)(typescript@5.5.4)(utf-8-validate@5.0.10)(zod@3.22.4)))(@dynamic-labs/wallet-book@2.5.0(eventemitter3@5.0.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(viem@2.20.0(bufferutil@4.0.8)(typescript@5.5.4)(utf-8-validate@5.0.10)(zod@3.22.4)))(eventemitter3@5.0.1)
-      '@walletconnect/ethereum-provider': 2.11.2(@types/react@18.3.3)(bufferutil@4.0.8)(react@18.3.1)(utf-8-validate@5.0.10)
+      '@walletconnect/ethereum-provider': 2.11.2(@types/react@18.3.11)(bufferutil@4.0.8)(react@18.3.1)(utf-8-validate@5.0.10)
       buffer: 6.0.3
       eventemitter3: 5.0.1
       stream: 0.0.2
@@ -4423,7 +4424,7 @@ snapshots:
 
   '@dynamic-labs/sdk-api-core@0.0.497': {}
 
-  '@dynamic-labs/sdk-react-core@2.5.0(@types/react@18.3.3)(bufferutil@4.0.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(utf-8-validate@5.0.10)(viem@2.20.0(bufferutil@4.0.8)(typescript@5.5.4)(utf-8-validate@5.0.10)(zod@3.22.4))':
+  '@dynamic-labs/sdk-react-core@2.5.0(@types/react@18.3.11)(bufferutil@4.0.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(utf-8-validate@5.0.10)(viem@2.20.0(bufferutil@4.0.8)(typescript@5.5.4)(utf-8-validate@5.0.10)(zod@3.22.4))':
     dependencies:
       '@dynamic-labs/iconic': 2.5.0(eventemitter3@5.0.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@dynamic-labs/logger': 2.5.0(eventemitter3@5.0.1)
@@ -4446,7 +4447,7 @@ snapshots:
       qrcode: 1.5.1
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
-      react-focus-lock: 2.9.2(@types/react@18.3.3)(react@18.3.1)
+      react-focus-lock: 2.9.2(@types/react@18.3.11)(react@18.3.1)
       react-i18next: 13.5.0(i18next@23.4.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-international-phone: 4.2.5(react@18.3.1)
       viem: 2.20.0(bufferutil@4.0.8)(typescript@5.5.4)(utf-8-validate@5.0.10)(zod@3.22.4)
@@ -5342,9 +5343,9 @@ snapshots:
 
   '@types/react-dom@18.3.0':
     dependencies:
-      '@types/react': 18.3.3
+      '@types/react': 18.3.11
 
-  '@types/react@18.3.3':
+  '@types/react@18.3.11':
     dependencies:
       '@types/prop-types': 15.7.12
       csstype: 3.1.3
@@ -5491,13 +5492,13 @@ snapshots:
     dependencies:
       tslib: 1.14.1
 
-  '@walletconnect/ethereum-provider@2.11.2(@types/react@18.3.3)(bufferutil@4.0.8)(react@18.3.1)(utf-8-validate@5.0.10)':
+  '@walletconnect/ethereum-provider@2.11.2(@types/react@18.3.11)(bufferutil@4.0.8)(react@18.3.1)(utf-8-validate@5.0.10)':
     dependencies:
       '@walletconnect/jsonrpc-http-connection': 1.0.8
       '@walletconnect/jsonrpc-provider': 1.0.14
       '@walletconnect/jsonrpc-types': 1.0.4
       '@walletconnect/jsonrpc-utils': 1.0.8
-      '@walletconnect/modal': 2.6.2(@types/react@18.3.3)(react@18.3.1)
+      '@walletconnect/modal': 2.6.2(@types/react@18.3.11)(react@18.3.1)
       '@walletconnect/sign-client': 2.11.2(bufferutil@4.0.8)(utf-8-validate@5.0.10)
       '@walletconnect/types': 2.11.2
       '@walletconnect/universal-provider': 2.11.2(bufferutil@4.0.8)(utf-8-validate@5.0.10)
@@ -5607,16 +5608,16 @@ snapshots:
       '@walletconnect/safe-json': 1.0.2
       pino: 7.11.0
 
-  '@walletconnect/modal-core@2.6.2(@types/react@18.3.3)(react@18.3.1)':
+  '@walletconnect/modal-core@2.6.2(@types/react@18.3.11)(react@18.3.1)':
     dependencies:
-      valtio: 1.11.2(@types/react@18.3.3)(react@18.3.1)
+      valtio: 1.11.2(@types/react@18.3.11)(react@18.3.1)
     transitivePeerDependencies:
       - '@types/react'
       - react
 
-  '@walletconnect/modal-ui@2.6.2(@types/react@18.3.3)(react@18.3.1)':
+  '@walletconnect/modal-ui@2.6.2(@types/react@18.3.11)(react@18.3.1)':
     dependencies:
-      '@walletconnect/modal-core': 2.6.2(@types/react@18.3.3)(react@18.3.1)
+      '@walletconnect/modal-core': 2.6.2(@types/react@18.3.11)(react@18.3.1)
       lit: 2.8.0
       motion: 10.16.2
       qrcode: 1.5.3
@@ -5624,10 +5625,10 @@ snapshots:
       - '@types/react'
       - react
 
-  '@walletconnect/modal@2.6.2(@types/react@18.3.3)(react@18.3.1)':
+  '@walletconnect/modal@2.6.2(@types/react@18.3.11)(react@18.3.1)':
     dependencies:
-      '@walletconnect/modal-core': 2.6.2(@types/react@18.3.3)(react@18.3.1)
-      '@walletconnect/modal-ui': 2.6.2(@types/react@18.3.3)(react@18.3.1)
+      '@walletconnect/modal-core': 2.6.2(@types/react@18.3.11)(react@18.3.1)
+      '@walletconnect/modal-ui': 2.6.2(@types/react@18.3.11)(react@18.3.1)
     transitivePeerDependencies:
       - '@types/react'
       - react
@@ -7768,17 +7769,17 @@ snapshots:
 
   react-fast-compare@2.0.4: {}
 
-  react-focus-lock@2.9.2(@types/react@18.3.3)(react@18.3.1):
+  react-focus-lock@2.9.2(@types/react@18.3.11)(react@18.3.1):
     dependencies:
       '@babel/runtime': 7.25.0
       focus-lock: 0.11.6
       prop-types: 15.8.1
       react: 18.3.1
       react-clientside-effect: 1.2.6(react@18.3.1)
-      use-callback-ref: 1.3.2(@types/react@18.3.3)(react@18.3.1)
-      use-sidecar: 1.1.2(@types/react@18.3.3)(react@18.3.1)
+      use-callback-ref: 1.3.2(@types/react@18.3.11)(react@18.3.1)
+      use-sidecar: 1.1.2(@types/react@18.3.11)(react@18.3.1)
     optionalDependencies:
-      '@types/react': 18.3.3
+      '@types/react': 18.3.11
 
   react-i18next@13.5.0(i18next@23.4.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
@@ -8457,20 +8458,20 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  use-callback-ref@1.3.2(@types/react@18.3.3)(react@18.3.1):
+  use-callback-ref@1.3.2(@types/react@18.3.11)(react@18.3.1):
     dependencies:
       react: 18.3.1
       tslib: 2.6.3
     optionalDependencies:
-      '@types/react': 18.3.3
+      '@types/react': 18.3.11
 
-  use-sidecar@1.1.2(@types/react@18.3.3)(react@18.3.1):
+  use-sidecar@1.1.2(@types/react@18.3.11)(react@18.3.1):
     dependencies:
       detect-node-es: 1.1.0
       react: 18.3.1
       tslib: 2.6.3
     optionalDependencies:
-      '@types/react': 18.3.3
+      '@types/react': 18.3.11
 
   use-sync-external-store@1.2.0(react@18.3.1):
     dependencies:
@@ -8495,12 +8496,12 @@ snapshots:
 
   v8-compile-cache-lib@3.0.1: {}
 
-  valtio@1.11.2(@types/react@18.3.3)(react@18.3.1):
+  valtio@1.11.2(@types/react@18.3.11)(react@18.3.1):
     dependencies:
       proxy-compare: 2.5.1
       use-sync-external-store: 1.2.0(react@18.3.1)
     optionalDependencies:
-      '@types/react': 18.3.3
+      '@types/react': 18.3.11
       react: 18.3.1
 
   viem@2.20.0(bufferutil@4.0.8)(typescript@5.5.4)(utf-8-validate@5.0.10)(zod@3.22.4):
